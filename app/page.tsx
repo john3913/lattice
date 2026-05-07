@@ -349,6 +349,7 @@ export default function Home() {
           <div className="fade-in-delay-4" style={{ display: "flex", gap: 16, marginTop: 44 }}>
             <a href="#contact" className="btn-primary">Engage Us →</a>
             <a href="#impact" className="btn-ghost">View Impact</a>
+            <a href="/strategy" className="btn-ghost">Our Strategy</a>
           </div>
         </div>
 
