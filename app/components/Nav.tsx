@@ -54,6 +54,7 @@ export default function Nav() {
             { label: "Platforms", href: "/#platforms" },
             { label: "Impact", href: "/#impact" },
             { label: "Process", href: "/process" },
+            { label: "Case Studies", href: "/palantir" },
           ].map((item) => (
             <Link
               key={item.label}
