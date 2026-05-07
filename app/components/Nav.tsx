@@ -54,6 +54,7 @@ export default function Nav() {
             { label: "Platforms", href: "/#platforms" },
             { label: "Impact", href: "/#impact" },
             { label: "Process", href: "/process" },
+            { label: "University", href: "/university" },
             { label: "Strategy", href: "/strategy" },
           ].map((item) => (
             <Link
@@ -64,7 +65,7 @@ export default function Nav() {
                 fontSize: 11,
                 letterSpacing: "0.1em",
                 textTransform: "uppercase",
-                color: path === item.href || (item.href === "/process" && path.startsWith("/process")) || (item.href === "/strategy" && path.startsWith("/strategy"))
+                color: path === item.href || (item.href === "/process" && path.startsWith("/process")) || (item.href === "/strategy" && path.startsWith("/strategy")) || (item.href === "/university" && path.startsWith("/university"))
                   ? "var(--accent)"
                   : "var(--text-secondary)",
                 textDecoration: "none",

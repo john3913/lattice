@@ -350,6 +350,7 @@ export default function Home() {
             <a href="#contact" className="btn-primary">Engage Us →</a>
             <a href="#impact" className="btn-ghost">View Impact</a>
             <a href="/strategy" className="btn-ghost">Our Strategy</a>
+            <a href="/university" className="btn-ghost">Universities</a>
           </div>
         </div>
 
